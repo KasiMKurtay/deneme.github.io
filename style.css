@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #2c2c2c;
+    text-decoration: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c9dfe767;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+
+}
+
+
+.header-wrapper {
+    background-color: #A4C6E1;
+    margin: 0px;
+    border: solid 3px #333333;
+    border-radius: 5px;
+}
+
+header h1 {
+    color: #000000;
+    /* Koyu yazı rengi */
+    font-size: 36px;
+    margin: 0;
+    display: inline-block;
+}
+
+.header-wrapper .header-left {
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.header-wrapper .header-left .dot-class {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.header-right {
+    align-items: center;
+    display: flex;
+    column-gap: 10px;
+    padding: 0px 5px;
+    list-style-type: none;
+    position: absolute;
+    right: 3px;
+    top: 10px;
+    background-color: 4A90E2;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.ana-yazi {
+    text-align: center;
+    font-weight: bold;
+    color: #000000;
+    /* Koyu yazı rengi */
+    margin: 0;
+}
+
+.header-right:hover a {
+    transition: .5s ease-in;
+    color: grey;
+    display: inline-block;
+
+}
+
+.blog-baslik {
+    margin-left: 20px;
+    /* Sol taraftan boşluk ekleyerek sağa kaydırma */
+    margin-right: 20px;
+    /* Sağ taraftan da boşluk ekleyebilirsiniz */
+    display: inline-block;
+}
+
+.dag-fotograf img {
+    position: absolute;
+    /* Görseli sayfa üst kısmına yerleştirir */
+    top: 100px;
+    /* Üstten 20px boşluk bırakır */
+    right: 100px;
+    /* Sağdan 20px boşluk bırakır */
+    width: 400px;
+    /* Görsel boyutunu ayarlayabilirsiniz */
+    height: auto;
+    border-radius: 100%;
+    border: #000000 solid 5px;
+}
+
+.dag-fotograf p {
+    position: absolute;
+    right: 240px;
+    margin-top: 180px;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+.blog-baslik p {
+    display: block;
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    width: 500px;
+    display: block;
+    text-align: center;
+    bottom: 500px;
+    left: 60px;
+    font-size: 40px;
+}
+
+.message {
+    position: absolute;
+    width: 500px;
+    display: block;
+    text-align: center;
+    bottom: 500px;
+    left: 700px;
+    font-size: 40px;
+}
+
+.hd-foto img {
+    position: absolute;
+    display: block;
+    left: 0px;
+    top: 420px;
+    height: 500px;
+    width: 700px;
+}
+
+.hd-foto2 img {
+    position: absolute;
+    display: block;
+    left: 700px;
+    top: 420px;
+    height: 500px;
+    width: 500px;
+}
+
+.message-form {
+    position: absolute;
+    width: 500px;
+    display: inline-block;
+    text-align: center;
+    bottom: 450px;
+    right: 50px;
+    font-size: 40px;
+}
+
+.form input {
+    outline: none;
+    border: solid 3px black;
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left:1490px;
+    top: 280px;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(179, 173, 173);
+}
+.form-1 input{
+    outline: none;
+    border: solid 3px black;
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left:1490px;
+    top: 280px;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(179, 173, 173);
+}
+.form-2 input{
+    outline: none;
+    border: solid 3px black;
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left:1490px;
+    top: 280px;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(179, 173, 173);
+    color: white;
+}
+.submit{
+    outline: none;
+    border: solid 3px black;
+    display: flex;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    left:1490px;
+    top: 280px;
+    margin: 20px;
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(179, 173, 173);
+    align-items: center;
+    transition: .3s ease-in-out;
+}
+.submit:hover{
+    background-color: red;
+}
